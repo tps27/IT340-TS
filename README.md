@@ -19,10 +19,10 @@ For these files to work, nagios3, nagios-plugins, snmp, snmpd, MIB downloader, m
 
 /etc/init/nagios.conf (Service to be run with Upstart)
 
-/etc/snmp/snmp.conf
+/etc/snmp/snmp.conf (Edit out the MIB: to enable MIBs)
 
-/etc/snmp/snmpd.conf
+/etc/snmp/snmpd.conf (Include neccessary OIDs)
 
-/etc/nagios-plugins/config/dns.cfg
+/etc/nagios-plugins/config/dns.cfg (Nagios commands)
 
-/etc/nagios3/conf.d/services_nagios2.cfg
+/etc/nagios3/conf.d/services_nagios2.cfg (Nagios services)
